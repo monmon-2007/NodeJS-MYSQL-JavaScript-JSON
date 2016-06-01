@@ -2,8 +2,8 @@ var express    = require("express");
 var mysql      = require('mysql');
 var connection = mysql.createConnection({
   host     : 'www.db4free.net',
-  user     : 'monmon_2007',
-  password : 'marina_zoom',
+  user     : '********',
+  password : '********',
   database : 'mina'
 });
 var app = express();
