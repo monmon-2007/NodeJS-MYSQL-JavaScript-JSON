@@ -3,9 +3,9 @@ var mysql = require('mysql');
 var connection = mysql.createConnection(
     {
   		host     : 'www.db4free.net',
-  		user     : 'monmon_2007',
-  		password : 'marina_zoom',
-  		database : 'mina'
+  		user     : '**********',
+  		password : '**********',
+  		database : '**********'
     }
 );
 
