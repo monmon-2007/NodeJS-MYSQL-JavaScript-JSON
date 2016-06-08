@@ -9,9 +9,9 @@
          if(isset($_POST['add']))
          {
             $dbhost = 'www.db4free.net';
-            $dbuser = 'monmon_2007';
-            $dbpass = 'marina_zoom';
-			$dbname = 'mina';
+            $dbuser = '*********';
+            $dbpass = '*********';
+	    $dbname = '*********';
             $conn = new mysqli($dbhost, $dbuser, $dbpass, $dbname); // Create connection
 
             if(! $conn )
